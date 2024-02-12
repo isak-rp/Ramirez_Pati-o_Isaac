@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Porcentaje de Género</title>
+    <link rel="stylesheet" href="./css/grupo.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Calculadora de Porcentaje de Género</h1>
+        <div class="input-container">
+            <label for="totalHombres" class="label">Total de hombres:</label>
+            <!-- Input para ingresar el total de hombres -->
+            <input type="number" id="totalHombres" class="input" min="0" required>
+        </div>
+        <div class="input-container">
+            <label for="totalMujeres" class="label">Total de mujeres:</label>
+            <!-- Input para ingresar el total de mujeres -->
+            <input type="number" id="totalMujeres" class="input" min="0" required>
+        </div>
+        <!-- Botón para calcular los porcentajes -->
+        <button id="calcularBtn" class="button">Calcular</button>
+        <!-- Mostrar el resultado del cálculo -->
+        <p id="resultado" class="result"></p>
+    </div>
+
+    <script src="./js/grupo.js" defer></script>
+</body>
+</html>
