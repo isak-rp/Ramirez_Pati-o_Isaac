@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Calificación Final</title>
+    <link rel="stylesheet" href="./css/calificacionalgoritmos.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Calculadora de Calificación Final</h1>
+        <div class="input-container">
+            <label for="parcial1" class="label">Calificación del primer parcial:</label>
+            <!-- Input para ingresar la calificación del primer parcial -->
+            <input type="text" id="parcial1" class="input" pattern="^\d+(\.\d{1,2})?$" required>
+        </div>
+        <div class="input-container">
+            <label for="parcial2" class="label">Calificación del segundo parcial:</label>
+            <!-- Input para ingresar la calificación del segundo parcial -->
+            <input type="text" id="parcial2" class="input" pattern="^\d+(\.\d{1,2})?$" required>
+        </div>
+        <div class="input-container">
+            <label for="parcial3" class="label">Calificación del tercer parcial:</label>
+            <!-- Input para ingresar la calificación del tercer parcial -->
+            <input type="text" id="parcial3" class="input" pattern="^\d+(\.\d{1,2})?$" required>
+        </div>
+        <div class="input-container">
+            <label for="examenFinal" class="label">Calificación del examen final:</label>
+            <!-- Input para ingresar la calificación del examen final -->
+            <input type="text" id="examenFinal" class="input" pattern="^\d+(\.\d{1,2})?$" required>
+        </div>
+        <div class="input-container">
+            <label for="trabajoFinal" class="label">Calificación del trabajo final:</label>
+            <!-- Input para ingresar la calificación del trabajo final -->
+            <input type="text" id="trabajoFinal" class="input" pattern="^\d+(\.\d{1,2})?$" required>
+        </div>
+        <!-- Botón para calcular la calificación final -->
+        <button id="calcularBtn" class="button">Calcular</button>
+        <!-- Mostrar el resultado del cálculo -->
+        <p id="resultado" class="result"></p>
+    </div>
+
+    <script src="./js/calificacionalgoritmos.js" defer></script>
+</body>
+</html>

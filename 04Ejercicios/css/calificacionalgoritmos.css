@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Imprint MT Shadow';
+    src: url('imprint-mt-shadow.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Italiana';
+    src: url('Italiana-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #E0FBFC; /* Color de fondo */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Inika', sans-serif; /* Tipo de letra */
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-family: 'imprint-mt-shadow', sans-serif; /* Tipo de letra */
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.label {
+    flex: 1;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.input {
+    flex: 2;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+    font-family: 'Inika', sans-serif; /* Tipo de letra */
+}
+
+.result {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+    font-family: 'Inika', sans-serif; /* Tipo de letra */
+}
+
+.error {
+    color: red;
+}
