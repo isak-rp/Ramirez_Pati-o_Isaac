@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Imprint MT Shadow';
+    src: url('imprint-mt-shadow.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Italiana Regular';
+    src: url('Italiana-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Inika', sans-serif;
+    background-color: #0A1E39;
+    color: #E0FBFC;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.title {
+    font-family: 'imprint-mt-shadow', sans-serif;
+    font-size: 2.5rem;
+    color: #98C1D9;
+}
+
+.input-container {
+    margin: 20px 0;
+}
+
+.label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.input {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: #EE6C4D;
+    color: #E0FBFC;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Inika', sans-serif;
+    font-size: 1rem;
+}
+
+.button:hover {
+    background-color: #C374F4;
+}
+
+.result {
+    font-family: 'Imprint MT Shadow', sans-serif;
+    font-size: 1.5rem;
+    color: #EE6C4D;
+}
