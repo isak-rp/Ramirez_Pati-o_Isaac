@@ -1,0 +1,74 @@
+body {
+    font-family: 'Inika', sans-serif;
+    background-color: #E0FBFC;
+    color: #0A1E39;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.text p {
+    font-family: 'Italiana', sans-serif;
+    font-size: 53px;
+    color: #EE6C4D;
+}
+
+.form table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.form table td {
+    padding: 10px;
+}
+
+.form input[type="text"],
+.form input[type="button"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #98C1D9;
+}
+
+.form input[type="button"] {
+    background-color: #C374F4;
+    color: #0A1E39;
+    cursor: pointer;
+}
+
+.form input[type="button"]:hover {
+    background-color: #EE6C4D;
+}
+
+.input_text {
+    background-color: #E0FBFC;
+    color: #0A1E39;
+    padding: 5px;
+    border: 1px solid #0A1E39;
+}
+
+.input_text:read-only {
+    background-color: #E0FBFC;
+}
+
+@font-face {
+    font-family: 'Imprint mt shadow';
+    src: url('imprint-mt-shadow.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Italiana';
+    src: url('Italiana-Regular.ttf') format('truetype');
+}
+
+h1 {
+    font-family: 'Imprint mt shadow', sans-serif;
+    color: #0A1E39;
+}
+
+h2 {
+    font-family: 'Italiana', sans-serif;
+    color: #0A1E39;
+}
