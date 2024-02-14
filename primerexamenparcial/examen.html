@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Inversión</title>
+  <link rel="stylesheet" href="./css/examen.css">
+</head>
+<body>
+  <header>
+    <h1>Calculadora de Inversión</h1>
+  </header>
+  <main>
+    <section class="calculadora">
+      <form id="formulario-inversion">
+        <label for="dias">Días a Invertir (menor o igual a 730):</label>
+        <input type="number" id="dias" min="1" max="730" required>
+        <label for="cantidad">Cantidad de Dinero a Invertir:</label>
+        <input type="number" id="cantidad" min="1" required>
+        <button type="submit">Calcular</button>
+      </form>
+    </section>
+    <section class="resultados">
+      <h2>Tabla de Inversión</h2>
+      <div class="contenedor-tabla">
+        <table id="tabla-inversion">
+          <thead>
+            <tr>
+              <th>Día</th>
+              <th>Cantidad Acumulada</th>
+            </tr>
+          </thead>
+          <tbody id="cuerpo-inversion"></tbody>
+        </table>
+      </div>
+      <div id="total"></div>
+    </section>
+  </main>
+  <footer>
+    <script src="./js/examen.js"></script>
+  </footer>
+</body>
+</html>

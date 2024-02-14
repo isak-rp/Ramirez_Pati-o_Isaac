@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Imprint MT Shadow';
+    src: url('imprint-mt-shadow.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Italiana Regular';
+    src: url('Italiana-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos globales */
+  body {
+    font-family: 'Inika', sans-serif;
+    background-color: #E0FBFC; /* Color de fondo */
+    color: #0A1E39; /* Color del texto */
+  }
+  
+  header {
+    background-color: #98C1D9; /* Color de fondo del encabezado */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: 'Imprint MT Shadow'; /* Tipografía del título h1 */
+    font-size: 2.5em;
+    color: #EE6C4D; /* Color del título h1 */
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .calculadora {
+    background-color: #E0FBFC; /* Color de fondo de la sección */
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .calculadora label {
+    color: #0A1E39; /* Color del texto de las etiquetas */
+  }
+  
+  .calculadora input[type="number"],
+  .calculadora button {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #0A1E39; /* Borde de los campos de entrada y botón */
+    border-radius: 5px;
+  }
+  
+  .calculadora button {
+    background-color: #C374F4; /* Color de fondo del botón */
+    color: #0A1E39; /* Color del texto del botón */
+    cursor: pointer;
+  }
+  
+  .resultados {
+    background-color: #E0FBFC; /* Color de fondo de la sección */
+    padding: 20px;
+  }
+  
+  .resultados h2 {
+    font-family: 'Italiana Regular'; /* Tipografía del título h2 */
+    color: #EE6C4D; /* Color del título h2 */
+    margin-bottom: 20px;
+    margin-left: 20%;
+  }
+  
+  .contenedor-tabla {
+    max-height: 300px; /* Altura máxima de la tabla */
+    overflow-y: auto; /* Desbordamiento vertical automático */
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+  
+  
+  #tabla-inversion {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #tabla-inversion th,
+  #tabla-inversion td {
+    border: 1px solid #0A1E39; /* Borde de las celdas de la tabla */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #total {
+    margin-top: 20px;
+    color: #0A1E39; /* Color del texto del total */
+  }
+  
+  
