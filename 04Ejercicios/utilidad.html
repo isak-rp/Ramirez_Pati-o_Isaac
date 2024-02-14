@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Utilidades</title>
+    <link rel="stylesheet" href="./css/utilidad.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Calculadora de Utilidades</h1>
+        <div class="input-container">
+            <label for="salarioMensual" class="label">Salario mensual:</label>
+            <!-- Input para ingresar el salario mensual -->
+            <input type="number" id="salarioMensual" class="input" min="0" required>
+        </div>
+        <div class="input-container">
+            <label for="antiguedad" class="label">Antigüedad en la empresa:</label>
+            <!-- Input para seleccionar la antigüedad en la empresa -->
+            <select id="antiguedad" class="input" required>
+                <option value="menos de 1 año">Menos de 1 año</option>
+                <option value="1 año o más y menos de 2 años">1 año o más y menos de 2 años</option>
+                <option value="2 años o más y menos de 5 años">2 años o más y menos de 5 años</option>
+                <option value="5 años o más y menos de 10 años">5 años o más y menos de 10 años</option>
+                <option value="10 años o más">10 años o más</option>
+            </select>
+        </div>
+        <!-- Botón para calcular la utilidad -->
+        <button id="calcularBtn" class="button">Calcular</button>
+        <!-- Mostrar el resultado del cálculo -->
+        <p id="resultado" class="result"></p>
+    </div>
+
+    <script src="./js/utilidad.js" defer></script>
+</body>
+</html>

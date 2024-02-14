@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Imprint mt shadow';
+    src: url('imprint-mt-shadow.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Italiana';
+    src: url('Italiana-Regular.ttf') format('truetype');
+}
+
+/* styles.css */
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #0A1E39; /* Dark blue */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-family: "Imprint mt shadow", serif;
+    color: #E0FBFC; /* Light blue */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: "Italiana", serif;
+    color: #98C1D9; /* Light turquoise */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title, .label, .input, .button, .result {
+    font-family: "Inika", sans-serif; /* All other elements */
+}
+
+.title {
+    color: #E0FBFC; /* Light blue */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.label {
+    flex: 1;
+    margin-right: 10px;
+    font-weight: bold;
+    color: #98C1D9; /* Light turquoise */
+}
+
+.input {
+    flex: 2;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    color: #333;
+}
+
+.button {
+    padding: 8px 16px;
+    background-color: #EE6C4D; /* Orange */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+}
+
+.result {
+    text-align: center;
+    font-size: 18px;
+    color: #C374F4; /* Pink */
+    margin-top: 20px;
+}

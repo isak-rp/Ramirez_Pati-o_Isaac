@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Horas Extras</title>
+    <link rel="stylesheet" href="./css/horasextra.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Calculadora de Horas Extras</h1>
+        <div class="input-container">
+            <label for="horasNormales" class="label">Horas normales trabajadas:</label>
+            <!-- Input para ingresar las horas normales trabajadas -->
+            <input type="number" id="horasNormales" class="input" min="0" required>
+        </div>
+        <div class="input-container">
+            <label for="horasExtras" class="label">Horas extras trabajadas:</label>
+            <!-- Input para ingresar las horas extras trabajadas -->
+            <input type="number" id="horasExtras" class="input" min="0" required>
+        </div>
+        <!-- Botón para calcular el pago por horas extras -->
+        <button id="calcularBtn" class="button">Calcular</button>
+        <!-- Mostrar el resultado del cálculo -->
+        <p id="resultado" class="result"></p>
+    </div>
+
+    <script src="./js/horasextra.js" defer></script>
+</body>
+</html>

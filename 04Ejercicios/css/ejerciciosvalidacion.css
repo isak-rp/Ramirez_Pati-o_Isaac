@@ -1,0 +1,46 @@
+/* Estilos para el cuerpo del documento */
+body {
+    background-color: #E0FBFC; /* Fondo */
+    color: #0A1E39; /* Texto */
+    font-family: 'Inika', sans-serif; /* Tipo de fuente para el texto */
+}
+
+/* Estilos para el encabezado h1 */
+h1 {
+    font-family: 'imprint-mt-shadow', sans-serif; /* Tipo de fuente para h1 */
+    color: #EE6C4D; /* Color */
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #C374F4; /* Color */
+    text-decoration: none; /* Quita subrayado */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+}
+
+/* Estilos para los párrafos dentro de los divs */
+div p {
+    font-family: 'Inika', sans-serif; /* Tipo de fuente */
+    font-size: 18px; /* Tamaño de fuente */
+    color: #98C1D9; /* Color */
+}
+
+/* Estilos para los ítems de lista dentro de los divs */
+div li {
+    list-style-type: none; /* Quita el marcador de lista */
+}
+
+/* Estilos para los enlaces dentro de los ítems de lista dentro de los divs */
+div li a {
+    font-family: 'Inika', sans-serif; /* Tipo de fuente */
+    font-size: 16px; /* Tamaño de fuente */
+    color: #C374F4; /* Color */
+}
+
+/* Estilos adicionales */
+div {
+    margin-bottom: 20px; /* Espaciado inferior entre los divs */
+}

@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "imprint-mt-shadow";
+    src: url("imprint-mt-shadow.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Italiana-Regular";
+    src: url("Italiana-Regular.ttf") format("truetype");
+}
+/* Estilos para el cuerpo */
+body {
+    font-family: 'Inika', sans-serif; /* Tipo de fuente para el cuerpo */
+    background-color: #E0FBFC; /* Color de fondo */
+}
+
+/* Estilos para el título principal */
+h1 {
+    font-family: 'imprint-mt-shadow', sans-serif; /* Tipo de fuente para h1 */
+    color: #0A1E39; /* Color del texto */
+}
+
+/* Estilos para los subtítulos */
+h2 {
+    font-family: 'Italiana-Regular', sans-serif; /* Tipo de fuente para h2 */
+    color: #98C1D9; /* Color del texto */
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #EE6C4D; /* Color del texto del enlace */
+    text-decoration: none; /* Quita la subrayado del enlace */
+}
+
+/* Estilos para los enlaces al ser seleccionados */
+a:hover {
+    color: #C374F4; /* Cambia el color del texto al pasar el ratón por encima */
+}

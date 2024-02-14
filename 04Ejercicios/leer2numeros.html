@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operaciones con dos números</title>
+    <link rel="stylesheet" href="./css/leer2numeros.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Operaciones con dos números</h1>
+        <div class="input-container">
+            <label for="numero1" class="label">Primer número:</label>
+            <!-- Input para ingresar el primer número -->
+            <input type="text" id="numero1" class="input" pattern="^\d+(\.\d{1,2})?$" required>
+        </div>
+        <div class="input-container">
+            <label for="numero2" class="label">Segundo número:</label>
+            <!-- Input para ingresar el segundo número -->
+            <input type="text" id="numero2" class="input" pattern="^\d+(\.\d{1,2})?$" required>
+        </div>
+        <!-- Botón para realizar la operación -->
+        <button id="calcularBtn" class="button">Calcular</button>
+        <!-- Mostrar el resultado de la operación -->
+        <p id="resultado" class="result"></p>
+    </div>
+
+    <script src="./js/leer2numeros.js" defer></script>
+</body>
+</html>
