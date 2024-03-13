@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversor de Divisas</title>
+  <link rel="stylesheet" href="css/divisas.css">
+</head>
+
+<body>
+
+  <header>
+    <h1 id="titulo">Conversor de Divisas</h1>
+  </header>
+
+  <main>
+    <div id="imagenes">
+      <img src="images/imagen_1.jpeg" alt="imagen" id="imagenPrincipal">
+      <img src="images/imagen_2.jpeg" alt="imagen" style="display: none;" id="imagen2">
+      <img src="images/imagen_3.jpeg" alt="imagen" style="display: none;" id="imagen3">
+      <img src="images/gif_error.gif" alt="GIF de error" style="display: none;" id="gifError">
+    </div>
+
+    <div id="formulario">
+      <label for="amount">Cantidad:</label>
+      <input id="amount" placeholder="Ingrese la cantidad" class="opciones">
+      <span style="color: red;" id="spanCantidad"></span>
+
+      <br>
+      <br>
+
+      <label for="fromCurrency">Divisa de origen:</label>
+      <select id="fromCurrency" class="opciones">
+        <option value="USD">Dólares estadounidenses (USD)</option>
+        <option value="EUR">Euros (EUR)</option>
+        <option value="GBP">Libras Esterlinas (GBP)</option>
+        <option value="JPY">Yenes Japoneses (JPY)</option>
+        <!-- Agrega más opciones según sea necesario -->
+      </select>
+
+      <br>
+      <br>
+
+      <label for="toCurrency">Divisa de destino:</label>
+      <select id="toCurrency" class="opciones">
+        <option value="USD">Dólares estadounidenses (USD)</option>
+        <option value="EUR">Euros (EUR)</option>
+        <option value="GBP">Libras Esterlinas (GBP)</option>
+        <option value="JPY">Yenes Japoneses (JPY)</option>
+        <!-- Agrega más opciones según sea necesario -->
+      </select>
+
+      <br>
+      <br>
+
+      <button id="botonConvertir" class="opciones">Convertir</button>
+
+      <p id="resultadoConversion"></p>
+    </div>
+  </main>
+
+  <script src="js/divisas.js"></script>
+
+</body>
+
+</html>
